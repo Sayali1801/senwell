@@ -1,0 +1,94 @@
+.container{
+    position: absolute;
+background-image: url('https://cdn.pixabay.com/photo/2021/02/03/00/10/receptionist-5975961_960_720.jpg');
+background-repeat: no-repeat;   
+background-position: center;
+background-size: cover;
+/* opacity: 0.7; */
+background-color: #665f5e;
+
+    background-blend-mode:exclusion;   
+
+
+
+height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    /* z-index: 1; */
+        padding-left: 120px;
+
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    background-color: rgb(250, 248, 246);
+    box-shadow: 10px 10px 20px  grey;
+
+}
+.imgLeftSide{
+    height: 485px;
+    border-radius: 0% 50% 0% 0% ;
+
+}
+form{
+height: 485px;
+width: 400px;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 10px;
+
+}
+h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.logInInfo{
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+p{
+    font-size: 18px;
+}
+.emailError{
+    color: red;
+    font-size: 18px;
+    word-spacing: 1px;
+}
+.emailMsg{
+    color:green;
+    font-size: 18px;
+    word-wrap: 1px;
+}
+input{
+    height: 30px;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: -40px;
+}
+input::placeholder{
+    font-size: 16px;
+    padding: 10px;
+}
+button{
+    height: 30px;
+    width: 90px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(19, 114, 82);
+    margin-top: 20px;
+}
+.logos{
+    cursor: pointer;
+    margin: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
